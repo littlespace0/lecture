@@ -34,6 +34,13 @@
   - References for computing peak Flop rate
   - Spent a bit more time on this than expected
   - How much to know about low-level details?  Not too much, we hope!
+p stages
+t indep. tasks
+1 time unit per stage
+-serial: pt
+-pipeline: p+t-1
+
+at the beginning: fill pipeline p-1
 
 - Other good questions
   - How would you know about diff types of parallel instructions avail?

@@ -11,6 +11,9 @@ with questions for class!
     you computed this, and give URLs for where you got the parameters
     in your calculation.  (We will return to this question again after
     we cover some computer architecture.)
+2 flops/fma * (512bit/64bit)fma/vector * 1 vector fma/cycle * 60 cores * 10^9 cycles
+1 vector fma/cycle from:
+https://software.intel.com/en-us/articles/intel-xeon-phi-coprocessor-codename-knights-corner
     
 2.  What is the approximate theoretical peak flop rate for your own machine?
 
@@ -30,7 +33,7 @@ with questions for class!
     What is the minimum serial time between starting to compile and having
     a compiled application?  What is the minimum parallel time given
     an arbitrary number of processors?
-
+parallel:2.25h
 5.  Clone the membench repository from GitHub:
 
        git clone git@github.com:cornell-cs5220-f15/membench.git
