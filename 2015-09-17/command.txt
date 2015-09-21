@@ -1,0 +1,13 @@
+game of life
+
+ghost cells 
+
+actual domain d
+width of ghost k
+extra cells: (d+2k)^2-d^2
+
+The choose of width of ghost cell is to easy read and write
+
+suppose 256*256 bit cache, if only 1 bit ghost
+Then the real cells are 254*254, not multiplier of 64, hard to read and write
+best way should be 32* width of ghost cells
